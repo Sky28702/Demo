@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  text-align: center;
+  background-color: grey;
+  font-size: 50px;
+  text-align: right;
+  display: block;
+  color: white;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/soft-pink-beautiful-smooth-wide-banner_1017-23601.jpg?semt=ais_hybrid&w=740");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Logo {
+  float: left;
+}
+
+nav {
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: black;
+  }
+  border: solid;
+  border-color: black;
+}
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+}
