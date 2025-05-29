@@ -21,9 +21,7 @@ nav {
 }
 
 .logo {
-  float: left;
 }
-
 .logo {
   img {
     height: 70px;
@@ -32,6 +30,11 @@ nav {
 
 header {
   padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid#e8e7e6;
 }
 
 nav {
@@ -52,7 +55,6 @@ nav {
   }
 }
 .hero-img {
-  float: left;
 }
 .maintitle {
   font-size: 50px;
