@@ -2,6 +2,8 @@
 
 body {
   font-family: "Rubik", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 * {
@@ -18,16 +20,35 @@ nav {
   color: white;
 }
 
-.Logo {
+.logo {
   float: left;
 }
 
+.logo {
+  img {
+    height: 70px;
+  }
+}
+
+header {
+  padding: 10px 0;
+}
+
 nav {
-  padding: 30px;
+  a {
+    font-weight: 500;
+  }
   a:link {
     text-decoration: none;
     color: black;
     margin-left: 30px;
+    padding: 170px 0 0 0;
+  }
+  a:hover {
+    color: #c0392b;
+  }
+  a.active {
+    color: #c0392b;
   }
 }
 .hero-img {
@@ -39,7 +60,7 @@ nav {
   font-weight: bold;
   text-align: center;
 }
-.Btn {
+.btn {
   background-color: red;
   width: 100px;
   border-radius: 20px;
