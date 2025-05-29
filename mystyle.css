@@ -11,17 +11,11 @@ body {
 }
 nav {
   text-align: center;
-  background-color: grey;
-  font-size: 50px;
+
+  font-size: 16px;
   text-align: right;
   display: block;
   color: white;
-}
-
-body {
-  background-image: url("https://img.freepik.com/free-vector/soft-pink-beautiful-smooth-wide-banner_1017-23601.jpg?semt=ais_hybrid&w=740");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .Logo {
@@ -29,15 +23,12 @@ body {
 }
 
 nav {
+  padding: 30px;
   a:link {
-    color: white;
     text-decoration: none;
+    color: black;
+    margin-left: 30px;
   }
-  a:hover {
-    background-color: black;
-  }
-  border: solid;
-  border-color: black;
 }
 .hero-img {
   float: left;
@@ -71,9 +62,13 @@ th {
 .cont {
   text-align: center;
   border: #050505 solid;
-  margin: 50;
   background-color: rgb(255, 234, 234);
-  opacity: 80%;
-  border-width: 50;
   border-radius: 50px;
+  max-width: 600px; /* center */
+  margin: 50px auto; /*to center top-bottom 50 and side one is auto*/
+}
+
+.user {
+  border-radius: 7px;
+  border: none;
 }
