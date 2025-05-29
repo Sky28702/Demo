@@ -21,15 +21,15 @@ nav {
 }
 
 .logo {
-}
-.logo {
   img {
     height: 70px;
   }
+  color: #c0392b;
+  font-size: 20px;
 }
 
 header {
-  padding: 10px 0;
+  padding: 10px 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -54,19 +54,43 @@ nav {
     color: #c0392b;
   }
 }
-.hero-img {
+
+.her {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  align-items: center;
+  justify-content: space-between;
 }
+
 .maintitle {
   font-size: 50px;
   color: black;
-  font-weight: bold;
-  text-align: center;
 }
+
+.namel {
+  color: #c0392b;
+}
+
 .btn {
-  background-color: red;
-  width: 100px;
-  border-radius: 20px;
+  text-align: center;
+  padding-left: 40%;
+  button {
+    background-color: #c0392b;
+    border: #282221 solid;
+    border-radius: 5px;
+    font-size: 50px;
+    color: white;
+  }
+
+  button:active {
+    transition: 0.1s;
+    box-shadow: 0px 10px #888888; /*vertical horizontal color*/
+    font-size: 300%;
+  }
 }
+
 .abt {
   text-align: center;
   border: solid;
