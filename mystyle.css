@@ -78,17 +78,18 @@ nav {
   padding-left: 40%;
   button {
     background-color: #c0392b;
-    border: #282221 solid;
+    border: none;
     border-radius: 5px;
-    font-size: 50px;
+    font-size: 250%;
     color: white;
     cursor: pointer;
+    padding: 5px 10px;
   }
 
   button:active {
     transition: 0.1s;
     box-shadow: 0px 10px #888888; /*vertical horizontal color*/
-    font-size: 300%;
+    font-size: 200%;
   }
 }
 
@@ -102,31 +103,67 @@ td {
   border-bottom: 3px solid #050505;
 }
 tr:hover {
-  background-color: coral;
+  background-color: #c0392b;
 }
 th {
-  background-color: tomato;
+  background-color: #c0392b;
 }
 
 .say {
+  font-size: 40px;
+  p {
+    font-size: 20px;
+  }
   position: relative;
   top: 200px;
   margin-left: 250px;
-}
+} /*sensitive part*/
 
 .cont {
   padding-left: 60%;
+  padding-bottom: 15%;
 }
+/*sensitive doutable*/
 
 .tex {
   input,
   textarea {
-    border-radius: 10px;
+    border-radius: 4px;
   }
 }
 .tex {
   input:hover {
     border: #c0392b solid;
     border-color: #c0392b;
+  }
+
+  textarea {
+    position: relative;
+    z-index: 9999;
+  }
+
+  textarea:hover {
+    /*bug some shit*/
+    border: #c0392b solid;
+    border-color: #c0392b;
+  }
+  input,
+  textarea:focus {
+    outline: none;
+  }
+}
+
+.sub {
+  input {
+    text-align: center;
+    background-color: #c0392b;
+    border-radius: 30px;
+    font-size: 150%;
+    justify-content: center;
+    max-width: 500px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
   }
 }
