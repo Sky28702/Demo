@@ -147,10 +147,26 @@ th {
     border: #c0392b solid;
     border-color: #c0392b;
   }
-  input,
-  textarea:focus {
-    outline: none;
-  }
+}
+
+.fuser,
+.luser,
+.mail {
+  width: 250px;
+  height: 40px;
+  border: #f3eae8 solid;
+  border-width: 1px;
+  z-index: 9999;
+  position: relative;
+}
+
+textarea::placeholder {
+  padding-top: 3%;
+}
+
+.tet {
+  border: #f3eae8 solid;
+  border-width: 1px;
 }
 
 .sub {
@@ -164,6 +180,5 @@ th {
     color: white;
     cursor: pointer;
     padding: 5px 10px;
-    border: none;
   }
 }
