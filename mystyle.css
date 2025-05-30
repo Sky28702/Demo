@@ -95,21 +95,41 @@ nav {
 .abt {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 40px;
+  p {
+    color: #655f5f;
+    margin-bottom: 40px;
+    line-height: 28px;
+  }
+}
+
+.texti {
+  margin-left: 90px;
+  max-width: 56%;
+}
+
+.not {
+  color: #c0392b;
+  font-weight: 500;
 }
 
 .ait {
+  margin-top: 44px;
   line-height: 20px;
   h2 {
     text-align: center;
     font-size: 30px;
     color: #c0392b;
     text-decoration: underline;
+    margin-bottom: 40px;
   }
   h3 {
     text-align: left;
     font-size: 20px;
+    margin-top: 44px;
+    margin-bottom: 20px;
   }
 }
 
@@ -131,6 +151,7 @@ th {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 40px;
   }
 }
 
@@ -138,6 +159,7 @@ legend {
   text-align: center;
   font-size: 20px;
   color: #c0392b;
+  margin-bottom: 40px;
 }
 
 .name,
@@ -148,6 +170,7 @@ legend {
   border-width: 1px;
   border-radius: 5px;
   padding-left: 12px;
+  margin-bottom: 40px;
 }
 
 .area {
@@ -157,6 +180,7 @@ legend {
   border-width: 1px;
   border: #f3eae8 solid;
   border-radius: 5px;
+  padding-top: 12px;
 }
 
 .bsub {
@@ -167,7 +191,7 @@ legend {
   border-radius: 5px;
   border: none;
   color: white;
-  font-size: 12px;
+  font-size: 16px;
   padding: 7px 28px;
   cursor: pointer;
 }
@@ -180,31 +204,11 @@ legend {
   border-radius: 5px;
   border: none;
   color: white;
-  font-size: 12px;
+  font-size: 16px;
   padding: 7px 28px;
   cursor: pointer;
 }
 
 footer {
   border-top: #050505 solid;
-  p {
-    text-align: right;
-  }
-}
-
-.futlink {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 0%;
-  padding-left: 95%;
-}
-
-.yt,
-h4 {
-  display: flex;
-  align-items: flex-start;
-  text-align: center;
-  position: relative;
-  z-index: 9999;
 }
