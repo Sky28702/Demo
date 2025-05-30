@@ -82,6 +82,7 @@ nav {
     border-radius: 5px;
     font-size: 50px;
     color: white;
+    cursor: pointer;
   }
 
   button:active {
@@ -106,16 +107,26 @@ tr:hover {
 th {
   background-color: tomato;
 }
-.cont {
-  text-align: center;
-  border: #050505 solid;
-  background-color: rgb(255, 234, 234);
-  border-radius: 50px;
-  max-width: 600px; /* center */
-  margin: 50px auto; /*to center top-bottom 50 and side one is auto*/
+
+.say {
+  position: relative;
+  top: 200px;
+  margin-left: 250px;
 }
 
-.user {
-  border-radius: 7px;
-  border: none;
+.cont {
+  padding-left: 60%;
+}
+
+.tex {
+  input,
+  textarea {
+    border-radius: 10px;
+  }
+}
+.tex {
+  input:hover {
+    border: #c0392b solid;
+    border-color: #c0392b;
+  }
 }
