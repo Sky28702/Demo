@@ -139,7 +139,7 @@ nav {
 
 .temp {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-around;
   margin-bottom: 40px;
 }
@@ -158,6 +158,7 @@ nav {
   p {
     width: 74%;
     color: #655f5f;
+    margin-bottom: 30px;
   }
 }
 
@@ -175,7 +176,9 @@ nav {
   }
 }
 
-.tcnt {
+.parent {
+  margin-bottom: 30px;
+  max-width: 400px;
   border: #050505;
   border-radius: 8px;
   padding: 16px 8px;
