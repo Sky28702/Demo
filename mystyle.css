@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Rubik", sans-serif;
   max-width: 1024px;
   margin: 0 auto;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 nav {
   text-align: center;
 
@@ -105,6 +106,10 @@ nav {
   }
 }
 
+.iab {
+  border-radius: 6px;
+}
+
 .texti {
   max-width: 56%;
 }
@@ -131,15 +136,34 @@ nav {
   }
 }
 
-th,
-td {
-  border-bottom: 3px solid #050505;
+/*Skills*/
+.skill {
+  /*parent*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
-tr:hover {
-  background-color: #c0392b;
+
+.box {
+  max-width: 36%;
+  box-shadow: 0px 5px 10px #655f5f;
+  background-color: white;
+  cursor: pointer;
 }
-th {
-  background-color: #c0392b;
+
+.box:hover {
+  max-width: 36%;
+  box-shadow: 0px 5px 10px #c0392b;
+  background-color: white;
+  cursor: pointer;
+}
+
+.cnt {
+  padding: 30px;
+  font-size: 20px;
 }
 
 /*form*/
@@ -168,7 +192,7 @@ legend {
   border-width: 1px;
   border-radius: 5px;
   padding-left: 12px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .area {
@@ -208,5 +232,28 @@ legend {
 }
 
 footer {
+  border-width: 10%;
   border-top: #050505 solid;
+  background-color: #120231;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  h3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  #se,
+  #tit {
+    margin-left: 40px;
+    margin-bottom: 40px;
+  }
+  a {
+    color: white;
+  }
+  p {
+    margin-bottom: 40px;
+  }
 }
