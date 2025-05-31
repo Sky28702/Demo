@@ -147,6 +147,9 @@ nav {
 .co {
   display: flex;
   justify-content: flex-end;
+  img {
+    border-radius: 6px;
+  }
 }
 
 .tcnt {
@@ -181,9 +184,34 @@ nav {
   max-width: 400px;
   border: #050505;
   border-radius: 8px;
-  padding: 16px 8px;
+  padding: 8px 16px;
   display: flex;
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  align-items: center;
+
+  I {
+    color: #c0392b;
+    font-size: 24px;
+  }
+
+  .tr {
+    padding-left: 12px;
+  }
+  .tt {
+    padding-left: 12px;
+  }
+  .tk {
+    padding-left: 12px;
+  }
+  .ho {
+    padding-left: 242px;
+  }
+  .cp {
+    padding-left: 254px;
+  }
+  .jp {
+    padding-left: 272px;
+  }
 }
 
 /*Skills*/
