@@ -137,33 +137,51 @@ nav {
 }
 
 /*Skills*/
+.sk {
+  h2 {
+    text-align: center;
+    color: #c0392b;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+}
 .skill {
   /*parent*/
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: left;
   margin-top: 70px;
   margin-bottom: 70px;
+
+  img {
+    height: 250px;
+    width: 350px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+  }
 }
 
 .box {
   max-width: 36%;
-  box-shadow: 0px 5px 10px #655f5f;
-  background-color: white;
-  cursor: pointer;
-}
 
-.box:hover {
-  max-width: 36%;
-  box-shadow: 0px 5px 10px #c0392b;
   background-color: white;
   cursor: pointer;
 }
 
 .cnt {
+  max-width: 106%;
   padding: 30px;
   font-size: 20px;
+  p {
+    align-items: center;
+    color: #655f5f;
+    font-size: 16px;
+  }
+  h5 {
+    margin-bottom: 16px;
+    align-items: center;
+  }
 }
 
 /*form*/
