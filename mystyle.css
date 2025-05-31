@@ -136,14 +136,12 @@ nav {
   }
 }
 /* SKILLS */
-.prof {
-  margin-bottom: 40px;
-}
 
 .temp {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 40px;
 }
 
 .co {
@@ -177,10 +175,10 @@ nav {
   }
 }
 
-.parent {
+.tcnt {
   border: #050505;
   border-radius: 8px;
-  padding: 8px 16px;
+  padding: 16px 8px;
   display: flex;
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
 }
